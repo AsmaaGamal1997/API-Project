@@ -1,0 +1,23 @@
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\Lab3_Blazer.shared.deps.json
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\Lab3_Blazer.shared.dll
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\ref\Lab3_Blazer.shared.dll
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\Lab3_Blazer.shared.pdb
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.AssemblyInfoInputs.cache
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.AssemblyInfo.cs
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.csproj.CoreCompileInputs.cache
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.dll
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\ref\Lab3_Blazer.shared.dll
+F:\Blazer\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.pdb
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\Lab3_Blazer.shared.deps.json
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\Lab3_Blazer.shared.dll
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\ref\Lab3_Blazer.shared.dll
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\bin\Debug\net5.0\Lab3_Blazer.shared.pdb
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.csproj.AssemblyReference.cache
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.AssemblyInfoInputs.cache
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.AssemblyInfo.cs
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.csproj.CoreCompileInputs.cache
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.dll
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\ref\Lab3_Blazer.shared.dll
+D:\ITI\API\API Sara Project\Lab3_Blazer\Lab3_Blazer.shared\obj\Debug\net5.0\Lab3_Blazer.shared.pdb

@@ -1,0 +1,94 @@
+﻿
+@inject IServices<Product> proservices
+@inject IServices<Category> categoryserve
+@page "/pro/Edit/{id:int}"
+
+@if (pro != null)
+{
+    <div class="container w-50 " style="background-color:darkcyan ">
+              <h3>Edit Product</h3>
+             <br>
+        <EditForm Model="pro" OnValidSubmit="Save" >
+            <DataAnnotationsValidator></DataAnnotationsValidator>
+            <ValidationSummary></ValidationSummary>
+            <div>
+                <label>Name</label>
+                <InputText @bind-Value="pro.Name" class="form-control w-50"></InputText>
+                <ValidationMessage For="()=>pro.Name" class="text-danger"></ValidationMessage>
+              
+            </div>
+            <div>
+                <label>Description</label>
+                <InputText @bind-Value="pro.Description" class="form-control w-50"></InputText>
+                <ValidationMessage For="()=>pro.Description" class="text-danger"></ValidationMessage>
+               
+            </div>
+            <div>
+                <label>Price</label>
+                <InputNumber @bind-Value="pro.Price" class="form-control w-50"></InputNumber>
+                <ValidationMessage For="()=>pro.Price" class="text-danger"></ValidationMessage>
+
+            </div>
+            <div>
+                <label>Image</label>
+                <InputText @bind-Value="pro.img" class="form-control w-50"></InputText>
+                <ValidationMessage For="()=>pro.img" class="text-danger"></ValidationMessage>
+            </div>
+            <div>
+                <label>Category</label>
+                
+                <InputSelect @bind-Value="pro.CategoryId" class="form-control w-50">
+                    @foreach (var item in cat)
+                    {
+                    <option value="@item.Id">@item.Name</option>
+                    }
+            </InputSelect>
+            <ValidationMessage For="()=>pro.CategoryId" class="text-danger"></ValidationMessage>
+
+        </div>
+
+        <br>
+        <input type="submit" value="Update" class="btn btn-success w-50 m-2">
+
+    </EditForm>
+
+</div>
+}
+else
+{
+    <h3>Product Not Found</h3>
+}
+@code {
+	[Inject]
+	public NavigationManager navmang{ get; set; }
+    
+	[Parameter]
+	public int id { get; set; }
+
+
+
+	public Product pro { get; set; }
+	public List <Category>  cat  {get;set;}
+
+
+
+	protected async override Task OnInitializedAsync()
+	{
+		pro=await proservices.GetByID(id);
+		cat=await categoryserve.GetAll();
+		Console.Write(pro);
+	 await base.OnInitializedAsync();
+
+	}
+	public void Save()
+	{ 
+        
+		proservices.Update(id ,pro);
+		 
+		navmang.NavigateTo("/Product");
+
+
+		Console.WriteLine("Data Served");
+	}
+	
+}
